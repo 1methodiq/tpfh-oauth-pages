@@ -1,0 +1,17 @@
+{
+  "client_id": "https://1methodiq.github.io/tpfh-oauth-pages/artlist-client-metadata.json",
+  "client_name": "OpenClaw TPFH (Too Pretty For History)",
+  "client_uri": "https://1methodiq.github.io/tpfh-oauth-pages/",
+  "policy_uri": "https://1methodiq.github.io/tpfh-oauth-pages/privacy.html",
+  "redirect_uris": [
+    "http://127.0.0.1/callback",
+    "http://127.0.0.1/oauth/callback",
+    "http://localhost/callback",
+    "http://localhost/oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid offline_access",
+  "application_type": "native"
+}
